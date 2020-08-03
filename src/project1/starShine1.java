@@ -1,22 +1,19 @@
-package starshine;
+package project1;
 
-public class Starshine {
+public class starShine1 {
 
 	public static void main(String[] args) {
-		int starCount = 3;
+		int starCount = 5;
 		String star = "*";
-		int i;
 
-		for(i = 1; i <= starCount*2; i++) {
-			if(i % 2 == 0)
-				continue;
-			System.out.println(star.repeat(i));
+		for(int i = 1; i <= starCount; i++) {
+
+			System.out.println(star.repeat(i* 2 - 1));
 		}
-		for(i = starCount*2-2; i >= 1; i--) {
-			if(i % 2 == 0)
-				continue;
-			System.out.println(star.repeat(i));
+
+		for(int i = starCount -1; i > 0; i--) {
+
+			System.out.println(star.repeat(i* 2 -1 ));
 		}
 	}
-
 }
