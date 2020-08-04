@@ -14,7 +14,7 @@ public class FunctionTest {
 		System.out.println(num1 + " X " + num2 + " = " + times + "입니다.");
 		double divide = divide(num3, num4);
 		System.out.println(num1 + " / " + num2 + " = " + divide + "입니다.");
-		double subtract = subtract(num1, num2);
+		int subtract = subtract(num1, num2);
 		System.out.println(num1 + " - " + num2 + " = " + subtract + "입니다.");
 	}
 
@@ -22,8 +22,8 @@ public class FunctionTest {
 		int result = n1 + n2;
 		return result;
 	}
-	public static double subtract(double n1, double n2) {
-		double result = n1 - n2;
+	public static int subtract(int n1, int n2) {
+		int result = n1 - n2;
 		return result;
 	}
 	public static int times(int n1, int n2) {	
