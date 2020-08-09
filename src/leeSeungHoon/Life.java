@@ -7,10 +7,7 @@ public class Life {
 		Company noRang = new Company("Norang");
 		Store chicken = new Store();
 
-		long workingDays = 10000;
-
-
-		for(int i = 0; i <= workingDays; i++) {
+		for(int i = 0; (long)leetoe.happy < 1000; i++) {
 			noRang.pay = 10;
 			noRang.work(leetoe);
 			chicken.buy(leetoe);
