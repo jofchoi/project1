@@ -24,4 +24,12 @@ public class Person {
 	public void setHappiness(int happiness) {
 		this.happiness = happiness;
 	}
+	public void works(int dailyPay) {
+		this.money = this.money + dailyPay;
+	}
+	public void eatsChicken(int cost, int happiness2) {
+		if(this.money >= cost) {
+			this.happiness = this.happiness + happiness2;
+		}		
+	}
 }
