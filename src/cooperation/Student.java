@@ -24,4 +24,8 @@ public class Student {
 	public void showInfo() {
 		System.out.println(studentName + "¥‘¿« ≥≤¿∫ µ∑¿∫ " + money + "¿‘¥œ¥Ÿ.");
 	}
+
+	public void takeTaxi(int money) {
+		this.money -= money;
+	}
 }
